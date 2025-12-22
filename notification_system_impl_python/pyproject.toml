@@ -1,0 +1,16 @@
+[project]
+name = "notification-system-impl-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.2",
+    "flask-smorest>=0.46.2",
+    "flask-sqlalchemy>=3.1.1",
+    "marshmallow>=4.1.2",
+    "psycopg2-binary>=2.9.11",
+    "python-dotenv>=1.2.1",
+    "redis>=7.1.0",
+    "requests>=2.32.5",
+]

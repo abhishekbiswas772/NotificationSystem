@@ -1,0 +1,8 @@
+Flask-SQLAlchemy
+flask
+flask-smorest
+redis 
+psycopg2-binary
+marshmallow
+python-dotenv 
+requests 
