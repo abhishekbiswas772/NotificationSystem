@@ -47,6 +47,7 @@ class UserHandler:
             user = Users(
                 id = get_id(),
                 email = email,
+                username = username,
                 password = generate_passwd_hash
             )
             self.db.session.add(user)
